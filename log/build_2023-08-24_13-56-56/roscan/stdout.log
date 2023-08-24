@@ -1,0 +1,18 @@
+[100%] Built target rpm_ctrl
+-- Install configuration: ""
+-- Installing: /home/orangepi/roscan_ws/install/roscan/lib/roscan/rpm_ctrl
+-- Installing: /home/orangepi/roscan_ws/install/roscan/share/ament_index/resource_index/package_run_dependencies/roscan
+-- Installing: /home/orangepi/roscan_ws/install/roscan/share/ament_index/resource_index/parent_prefix_path/roscan
+-- Installing: /home/orangepi/roscan_ws/install/roscan/share/roscan/environment/ament_prefix_path.sh
+-- Installing: /home/orangepi/roscan_ws/install/roscan/share/roscan/environment/ament_prefix_path.dsv
+-- Installing: /home/orangepi/roscan_ws/install/roscan/share/roscan/environment/path.sh
+-- Installing: /home/orangepi/roscan_ws/install/roscan/share/roscan/environment/path.dsv
+-- Installing: /home/orangepi/roscan_ws/install/roscan/share/roscan/local_setup.bash
+-- Installing: /home/orangepi/roscan_ws/install/roscan/share/roscan/local_setup.sh
+-- Installing: /home/orangepi/roscan_ws/install/roscan/share/roscan/local_setup.zsh
+-- Installing: /home/orangepi/roscan_ws/install/roscan/share/roscan/local_setup.dsv
+-- Installing: /home/orangepi/roscan_ws/install/roscan/share/roscan/package.dsv
+-- Installing: /home/orangepi/roscan_ws/install/roscan/share/ament_index/resource_index/packages/roscan
+-- Installing: /home/orangepi/roscan_ws/install/roscan/share/roscan/cmake/roscanConfig.cmake
+-- Installing: /home/orangepi/roscan_ws/install/roscan/share/roscan/cmake/roscanConfig-version.cmake
+-- Installing: /home/orangepi/roscan_ws/install/roscan/share/roscan/package.xml

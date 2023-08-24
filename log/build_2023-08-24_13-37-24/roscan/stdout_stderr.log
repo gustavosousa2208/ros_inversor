@@ -1,0 +1,16 @@
+gmake[1]: Entering directory '/home/orangepi/roscan_ws/build/roscan'
+gmake[2]: Entering directory '/home/orangepi/roscan_ws/build/roscan'
+gmake[3]: Entering directory '/home/orangepi/roscan_ws/build/roscan'
+gmake[3]: Leaving directory '/home/orangepi/roscan_ws/build/roscan'
+gmake[3]: Entering directory '/home/orangepi/roscan_ws/build/roscan'
+[ 50%] [32mBuilding CXX object CMakeFiles/rpm_ctrl.dir/src/rpm_ctrl.cpp.o[0m
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:43:3:[m[K [01;31m[Kerror: [m[K‘[01m[KwaitForMessage[m[K’ was not declared in this scope
+   43 |   [01;31m[KwaitForMessage[m[K(sock);
+      |   [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[3]: *** [CMakeFiles/rpm_ctrl.dir/build.make:76: CMakeFiles/rpm_ctrl.dir/src/rpm_ctrl.cpp.o] Error 1
+gmake[3]: Leaving directory '/home/orangepi/roscan_ws/build/roscan'
+gmake[2]: Leaving directory '/home/orangepi/roscan_ws/build/roscan'
+gmake[1]: Leaving directory '/home/orangepi/roscan_ws/build/roscan'
+gmake[2]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rpm_ctrl.dir/all] Error 2
+gmake[1]: *** [Makefile:146: all] Error 2

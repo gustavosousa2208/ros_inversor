@@ -1,0 +1,1 @@
+Invoking command in '/home/orangepi/roscan_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orangepi/roscan_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/orangepi/roscan_ws/install/cpp_pubsub

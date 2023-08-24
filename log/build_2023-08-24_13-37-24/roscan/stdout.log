@@ -1,0 +1,9 @@
+gmake[1]: Entering directory '/home/orangepi/roscan_ws/build/roscan'
+gmake[2]: Entering directory '/home/orangepi/roscan_ws/build/roscan'
+gmake[3]: Entering directory '/home/orangepi/roscan_ws/build/roscan'
+gmake[3]: Leaving directory '/home/orangepi/roscan_ws/build/roscan'
+gmake[3]: Entering directory '/home/orangepi/roscan_ws/build/roscan'
+[ 50%] [32mBuilding CXX object CMakeFiles/rpm_ctrl.dir/src/rpm_ctrl.cpp.o[0m
+gmake[3]: Leaving directory '/home/orangepi/roscan_ws/build/roscan'
+gmake[2]: Leaving directory '/home/orangepi/roscan_ws/build/roscan'
+gmake[1]: Leaving directory '/home/orangepi/roscan_ws/build/roscan'

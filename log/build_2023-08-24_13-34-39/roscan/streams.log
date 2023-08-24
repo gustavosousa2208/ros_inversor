@@ -1,0 +1,20 @@
+[0.021s] Invoking command in '/home/orangepi/roscan_ws/build/roscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/roscan_ws/build/roscan -- -j8 -l8
+[0.051s] gmake[1]: Entering directory '/home/orangepi/roscan_ws/build/roscan'
+[0.103s] gmake[2]: Entering directory '/home/orangepi/roscan_ws/build/roscan'
+[0.107s] gmake[3]: Entering directory '/home/orangepi/roscan_ws/build/roscan'
+[0.131s] [35m[1mConsolidate compiler generated dependencies of target rpm_ctrl[0m
+[0.138s] gmake[3]: Leaving directory '/home/orangepi/roscan_ws/build/roscan'
+[0.146s] gmake[3]: Entering directory '/home/orangepi/roscan_ws/build/roscan'
+[0.169s] [ 50%] [32mBuilding CXX object CMakeFiles/rpm_ctrl.dir/src/rpm_ctrl.cpp.o[0m
+[0.456s] [01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:[m[K In function ‘[01m[Kint waitForMessage()[m[K’:
+[0.456s] [01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:50:31:[m[K [01;31m[Kerror: [m[K‘[01m[Ksock[m[K’ was not declared in this scope; did you mean ‘[01m[Ksocket[m[K’?
+[0.457s]    50 |         ssize_t nbytes = read([01;31m[Ksock[m[K, &frame, sizeof(struct can_frame));
+[0.457s]       |                               [01;31m[K^~~~[m[K
+[0.457s]       |                               [32m[Ksocket[m[K
+[0.500s] gmake[3]: *** [CMakeFiles/rpm_ctrl.dir/build.make:76: CMakeFiles/rpm_ctrl.dir/src/rpm_ctrl.cpp.o] Error 1
+[0.500s] gmake[3]: Leaving directory '/home/orangepi/roscan_ws/build/roscan'
+[0.501s] gmake[2]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rpm_ctrl.dir/all] Error 2
+[0.501s] gmake[2]: Leaving directory '/home/orangepi/roscan_ws/build/roscan'
+[0.502s] gmake[1]: *** [Makefile:146: all] Error 2
+[0.502s] gmake[1]: Leaving directory '/home/orangepi/roscan_ws/build/roscan'
+[0.504s] Invoked command in '/home/orangepi/roscan_ws/build/roscan' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/roscan_ws/build/roscan -- -j8 -l8

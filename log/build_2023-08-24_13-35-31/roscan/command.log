@@ -1,0 +1,2 @@
+Invoking command in '/home/orangepi/roscan_ws/build/roscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/roscan_ws/build/roscan -- -j8 -l8
+Invoked command in '/home/orangepi/roscan_ws/build/roscan' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/roscan_ws/build/roscan -- -j8 -l8

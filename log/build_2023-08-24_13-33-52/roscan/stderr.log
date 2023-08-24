@@ -1,0 +1,8 @@
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:[m[K In function ‘[01m[Kint waitForMessage()[m[K’:
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:54:31:[m[K [01;31m[Kerror: [m[K‘[01m[Ksock[m[K’ was not declared in this scope; did you mean ‘[01m[Ksocket[m[K’?
+   54 |         ssize_t nbytes = read([01;31m[Ksock[m[K, &frame, sizeof(struct can_frame));
+      |                               [01;31m[K^~~~[m[K
+      |                               [32m[Ksocket[m[K
+gmake[3]: *** [CMakeFiles/rpm_ctrl.dir/build.make:76: CMakeFiles/rpm_ctrl.dir/src/rpm_ctrl.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rpm_ctrl.dir/all] Error 2
+gmake[1]: *** [Makefile:146: all] Error 2

@@ -1,0 +1,136 @@
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:10:21:[m[K [01;31m[Kerror: [m[K‘[01m[KPF_CAN[m[K’ was not declared in this scope
+   10 |   int sock = socket([01;31m[KPF_CAN[m[K, SOCK_RAW, CAN_RAW);
+      |                     [01;31m[K^~~~~~[m[K
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:10:29:[m[K [01;31m[Kerror: [m[K‘[01m[KSOCK_RAW[m[K’ was not declared in this scope
+   10 |   int sock = socket(PF_CAN, [01;31m[KSOCK_RAW[m[K, CAN_RAW);
+      |                             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:10:39:[m[K [01;31m[Kerror: [m[K‘[01m[KCAN_RAW[m[K’ was not declared in this scope
+   10 |   int sock = socket(PF_CAN, SOCK_RAW, [01;31m[KCAN_RAW[m[K);
+      |                                       [01;31m[K^~~~~~~[m[K
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:10:14:[m[K [01;31m[Kerror: [m[K‘[01m[Ksocket[m[K’ was not declared in this scope; did you mean ‘[01m[Ksock[m[K’?
+   10 |   int sock = [01;31m[Ksocket[m[K(PF_CAN, SOCK_RAW, CAN_RAW);
+      |              [01;31m[K^~~~~~[m[K
+      |              [32m[Ksock[m[K
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:12:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kcerr[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   12 |         std::[01;31m[Kcerr[m[K << "Error opening socket" << std::endl;
+      |              [01;31m[K^~~~[m[K
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:2:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cerr[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+    1 | #include <cstdio>
+  +++ |+[32m[K#include <iostream>[m[K
+    2 | 
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:12:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   12 |         std::cerr << "Error opening socket" << std::[01;31m[Kendl[m[K;
+      |                                                     [01;31m[K^~~~[m[K
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:2:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ is defined in header ‘[01m[K<ostream>[m[K’; did you forget to ‘[01m[K#include <ostream>[m[K’?
+    1 | #include <cstdio>
+  +++ |+[32m[K#include <ostream>[m[K
+    2 | 
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:15:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   15 |         std::[01;31m[Kcout[m[K << "Socket opened successfully." << std::endl;
+      |              [01;31m[K^~~~[m[K
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:15:14:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:15:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   15 |         std::cout << "Socket opened successfully." << std::[01;31m[Kendl[m[K;
+      |                                                            [01;31m[K^~~~[m[K
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:15:60:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ is defined in header ‘[01m[K<ostream>[m[K’; did you forget to ‘[01m[K#include <ostream>[m[K’?
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:18:18:[m[K [01;31m[Kerror: [m[Kaggregate ‘[01m[Kmain(int, char**)::ifreq ifr[m[K’ has incomplete type and cannot be defined
+   18 |     struct ifreq [01;31m[Kifr[m[K;
+      |                  [01;31m[K^~~[m[K
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:19:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kstrcpy[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   19 |     std::[01;31m[Kstrcpy[m[K(ifr.ifr_name, "can0");  // Replace "can0" with your desired interface name
+      |          [01;31m[K^~~~~~[m[K
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:20:17:[m[K [01;31m[Kerror: [m[K‘[01m[KSIOCGIFINDEX[m[K’ was not declared in this scope
+   20 |     ioctl(sock, [01;31m[KSIOCGIFINDEX[m[K, &ifr);
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:20:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kioctl[m[K’ was not declared in this scope
+   20 |     [01;31m[Kioctl[m[K(sock, SIOCGIFINDEX, &ifr);
+      |     [01;31m[K^~~~~[m[K
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:22:25:[m[K [01;31m[Kerror: [m[Kaggregate ‘[01m[Kmain(int, char**)::sockaddr_can addr[m[K’ has incomplete type and cannot be defined
+   22 |     struct sockaddr_can [01;31m[Kaddr[m[K;
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:23:23:[m[K [01;31m[Kerror: [m[K‘[01m[KAF_CAN[m[K’ was not declared in this scope
+   23 |     addr.can_family = [01;31m[KAF_CAN[m[K;
+      |                       [01;31m[K^~~~~~[m[K
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:26:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kbind[m[K’ was not declared in this scope
+   26 |     bret = [01;31m[Kbind[m[K(sock, (struct sockaddr *)&addr, sizeof(addr));
+      |            [01;31m[K^~~~[m[K
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:29:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kcerr[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   29 |         std::[01;31m[Kcerr[m[K << "Error binding socket" << std::endl;
+      |              [01;31m[K^~~~[m[K
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:29:14:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cerr[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:29:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   29 |         std::cerr << "Error binding socket" << std::[01;31m[Kendl[m[K;
+      |                                                     [01;31m[K^~~~[m[K
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:29:53:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ is defined in header ‘[01m[K<ostream>[m[K’; did you forget to ‘[01m[K#include <ostream>[m[K’?
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:32:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   32 |         std::[01;31m[Kcout[m[K << "Socket binded successfully." << std::endl;
+      |              [01;31m[K^~~~[m[K
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:32:14:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:32:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   32 |         std::cout << "Socket binded successfully." << std::[01;31m[Kendl[m[K;
+      |                                                            [01;31m[K^~~~[m[K
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:32:60:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ is defined in header ‘[01m[K<ostream>[m[K’; did you forget to ‘[01m[K#include <ostream>[m[K’?
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:[m[K In function ‘[01m[Kint waitForMessage()[m[K’:
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:42:22:[m[K [01;31m[Kerror: [m[Kaggregate ‘[01m[KwaitForMessage()::can_frame frame[m[K’ has incomplete type and cannot be defined
+   42 |     struct can_frame [01;31m[Kframe[m[K;
+      |                      [01;31m[K^~~~~[m[K
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:44:31:[m[K [01;31m[Kerror: [m[K‘[01m[Ksock[m[K’ was not declared in this scope
+   44 |         ssize_t nbytes = read([01;31m[Ksock[m[K, &frame, sizeof(struct can_frame));
+      |                               [01;31m[K^~~~[m[K
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:44:45:[m[K [01;31m[Kerror: [m[Kinvalid application of ‘[01m[Ksizeof[m[K’ to incomplete type ‘[01m[KwaitForMessage()::can_frame[m[K’
+   44 |         ssize_t nbytes = read(sock, &frame, [01;31m[Ksizeof(struct can_frame)[m[K);
+      |                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:44:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kread[m[K’ was not declared in this scope; did you mean ‘[01m[Kfread[m[K’?
+   44 |         ssize_t nbytes = [01;31m[Kread[m[K(sock, &frame, sizeof(struct can_frame));
+      |                          [01;31m[K^~~~[m[K
+      |                          [32m[Kfread[m[K
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:46:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kcerr[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   46 |             std::[01;31m[Kcerr[m[K << "Error reading from socket" << std::endl;
+      |                  [01;31m[K^~~~[m[K
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:46:18:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cerr[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:46:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   46 |             std::cerr << "Error reading from socket" << std::[01;31m[Kendl[m[K;
+      |                                                              [01;31m[K^~~~[m[K
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:46:62:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ is defined in header ‘[01m[K<ostream>[m[K’; did you forget to ‘[01m[K#include <ostream>[m[K’?
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:52:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   52 |             std::[01;31m[Kcout[m[K << "Dados do inversor " << std::hex << static_cast<int>(frame.data[0]) << " " << std::hex << static_cast<int>(frame.data[1]) << " " << std::endl;
+      |                  [01;31m[K^~~~[m[K
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:52:18:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:52:55:[m[K [01;31m[Kerror: [m[K‘[01m[Khex[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   52 |             std::cout << "Dados do inversor " << std::[01;31m[Khex[m[K << static_cast<int>(frame.data[0]) << " " << std::hex << static_cast<int>(frame.data[1]) << " " << std::endl;
+      |                                                       [01;31m[K^~~[m[K
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:52:109:[m[K [01;31m[Kerror: [m[K‘[01m[Khex[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   52 |             std::cout << "Dados do inversor " << std::hex << static_cast<int>(frame.data[0]) << " " << std::[01;31m[Khex[m[K << static_cast<int>(frame.data[1]) << " " << std::endl;
+      |                                                                                                             [01;31m[K^~~[m[K
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:52:163:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   52 |             std::cout << "Dados do inversor " << std::hex << static_cast<int>(frame.data[0]) << " " << std::hex << static_cast<int>(frame.data[1]) << " " << std::[01;31m[Kendl[m[K;
+      |                                                                                                                                                                   [01;31m[K^~~~[m[K
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:52:163:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ is defined in header ‘[01m[K<ostream>[m[K’; did you forget to ‘[01m[K#include <ostream>[m[K’?
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:54:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   54 |                 std::[01;31m[Kcout[m[K << "REMOTO" << std::endl;
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:54:22:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:54:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   54 |                 std::cout << "REMOTO" << std::[01;31m[Kendl[m[K;
+      |                                               [01;31m[K^~~~[m[K
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:54:47:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ is defined in header ‘[01m[K<ostream>[m[K’; did you forget to ‘[01m[K#include <ostream>[m[K’?
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:57:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   57 |                 std::[01;31m[Kcout[m[K << "FALHA" << std::endl;
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:57:22:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:57:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   57 |                 std::cout << "FALHA" << std::[01;31m[Kendl[m[K;
+      |                                              [01;31m[K^~~~[m[K
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:57:46:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ is defined in header ‘[01m[K<ostream>[m[K’; did you forget to ‘[01m[K#include <ostream>[m[K’?
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:60:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   60 |                 std::[01;31m[Kcout[m[K << "SUBTENSAO" << std::endl;
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:60:22:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:60:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   60 |                 std::cout << "SUBTENSAO" << std::[01;31m[Kendl[m[K;
+      |                                                  [01;31m[K^~~~[m[K
+[01m[K/home/orangepi/roscan_ws/roscan/src/rpm_ctrl.cpp:60:50:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ is defined in header ‘[01m[K<ostream>[m[K’; did you forget to ‘[01m[K#include <ostream>[m[K’?
+gmake[3]: *** [CMakeFiles/rpm_ctrl.dir/build.make:76: CMakeFiles/rpm_ctrl.dir/src/rpm_ctrl.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rpm_ctrl.dir/all] Error 2
+gmake[1]: *** [Makefile:146: all] Error 2
