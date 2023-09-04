@@ -1,4 +1,0 @@
-source;share/roscan/local_setup.bash
-source;share/roscan/local_setup.dsv
-source;share/roscan/local_setup.sh
-source;share/roscan/local_setup.zsh

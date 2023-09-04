@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/rpm_ctrl.dir/src/rpm_ctrl.cpp.o -o rpm_ctrl 

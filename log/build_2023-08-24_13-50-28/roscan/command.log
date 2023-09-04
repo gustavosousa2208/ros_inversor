@@ -1,6 +1,0 @@
-Invoking command in '/home/orangepi/roscan_ws/build/roscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orangepi/roscan_ws/src/roscan -DCMAKE_INSTALL_PREFIX=/home/orangepi/roscan_ws/install/roscan
-Invoked command in '/home/orangepi/roscan_ws/build/roscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orangepi/roscan_ws/src/roscan -DCMAKE_INSTALL_PREFIX=/home/orangepi/roscan_ws/install/roscan
-Invoking command in '/home/orangepi/roscan_ws/build/roscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orangepi/roscan_ws/build/roscan -- -j8 -l8
-Invoked command in '/home/orangepi/roscan_ws/build/roscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orangepi/roscan_ws/build/roscan -- -j8 -l8
-Invoking command in '/home/orangepi/roscan_ws/build/roscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orangepi/roscan_ws/build/roscan
-Invoked command in '/home/orangepi/roscan_ws/build/roscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orangepi/roscan_ws/build/roscan
